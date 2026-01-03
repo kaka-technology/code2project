@@ -1,0 +1,5 @@
+{
+  "name": "CodeToProject - Cyber Edition",
+  "description": "A futuristic, offline tool to convert single JS/TS/JSX/TSX files into full, runnable Vite + React projects instantly.",
+  "requestFramePermissions": []
+}

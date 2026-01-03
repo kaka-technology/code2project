@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" class="dark h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeToProject - Cyber Edition</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              cyber: {
+                cyan: '#06b6d4',
+                pink: '#ec4899',
+                purple: '#a855f7',
+              }
+            },
+            fontFamily: {
+              sans: ['Inter', 'Vazirmatn', 'sans-serif'],
+              cyber: ['Space Grotesk', 'Estedad', 'sans-serif'],
+              mono: ['Fira Code', 'monospace'],
+            },
+            boxShadow: {
+              'neon-cyan': '0 0 20px rgba(6, 182, 212, 0.4), 0 0 40px rgba(6, 182, 212, 0.2)',
+              'neon-pink': '0 0 20px rgba(236, 72, 153, 0.4), 0 0 40px rgba(236, 72, 153, 0.2)',
+              'glass': '0 8px 32px 0 rgba(0, 0, 0, 0.1)',
+              'glass-hover': '0 12px 48px 0 rgba(6, 182, 212, 0.15)',
+            },
+          }
+        }
+      }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Vazirmatn:wght@300;400;500;600;700;800;900&family=Estedad:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/src/index.css">
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.1/",
+    "react": "https://aistudiocdn.com/react@^19.2.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.1/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.556.0",
+    "jszip": "https://aistudiocdn.com/jszip@^3.10.1"
+  }
+}
+</script>
+</head>
+  <body class="antialiased transition-all duration-500">
+    <div id="root" class="min-h-full flex flex-col relative z-10"></div>
+    
+    <!-- Animated Ambient Glows -->
+    <div class="fixed top-0 left-1/4 w-[600px] h-[600px] bg-cyan-500/10 dark:bg-cyan-500/10 rounded-full blur-[120px] pointer-events-none animate-float"></div>
+    <div class="fixed bottom-0 right-1/4 w-[600px] h-[600px] bg-pink-500/10 dark:bg-pink-500/10 rounded-full blur-[120px] pointer-events-none animate-float" style="animation-delay: 3s;"></div>
+    <div class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] bg-purple-500/5 dark:bg-purple-500/5 rounded-full blur-[100px] pointer-events-none animate-glow"></div>
+  <script type="module" src="/src/index.tsx"></script>
+</body>
+</html>
