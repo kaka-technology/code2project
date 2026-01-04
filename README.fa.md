@@ -2,11 +2,7 @@
 
 # ⚡ Code2Project - نسخه سایبری
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
-  <img src="./assets/banner.svg" alt="Code2Project Banner" width="100%" />
-</picture>
+![Code2Project Banner](./assets/banner.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -46,17 +42,13 @@
 
 🌐 **[دمو زنده را امتحان کنید](https://c2p.us.ci)**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/screenshot-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/screenshot-light.svg">
-  <img src="./assets/screenshot-light.svg" alt="App Demo" width="800" />
-</picture>
+![App Screenshot](./assets/screenshot-light.svg)
 
 ### 🖼️ تصاویر
 
 | حالت روشن | حالت تاریک |
 |:----------:|:---------:|
-| <img src="./assets/screenshot-light.svg" alt="حالت روشن" width="400"/> | <img src="./assets/screenshot-dark.svg" alt="حالت تاریک" width="400"/> |
+| ![حالت روشن](./assets/screenshot-light.svg) | ![حالت تاریک](./assets/screenshot-dark.svg) |
 
 </div>
 

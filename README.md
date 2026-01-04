@@ -2,11 +2,7 @@
 
 # ⚡ Code2Project - Cyber Edition
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
-  <img src="./assets/banner.svg" alt="Code2Project Banner" width="100%" />
-</picture>
+![Code2Project Banner](./assets/banner.svg)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -46,18 +42,14 @@
 
 🌐 **[Try Live Demo](https://c2p.us.ci)**
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/screenshot-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="./assets/screenshot-light.svg">
-  <img src="./assets/screenshot-light.svg" alt="App Demo" width="800" />
-</picture>
+![App Screenshot](./assets/screenshot-light.svg)
 
 
 ### 🖼️ Screenshots
 
 | Light Mode | Dark Mode |
 |:----------:|:---------:|
-| <img src="./assets/screenshot-light.svg" alt="Light Mode" width="400"/> | <img src="./assets/screenshot-dark.svg" alt="Dark Mode" width="400"/> |
+| ![Light Mode](./assets/screenshot-light.svg) | ![Dark Mode](./assets/screenshot-dark.svg) |
 
 </div>
 
