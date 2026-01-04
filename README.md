@@ -2,7 +2,11 @@
 
 # ⚡ Code2Project - Cyber Edition
 
-<img src="./assets/banner.png" alt="Code2Project Banner" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
+  <img src="./assets/banner.svg" alt="Code2Project Banner" width="100%" />
+</picture>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -12,7 +16,7 @@
 
 ### 🚀 Transform Single Files into Complete React Projects - Instantly!
 
-**[English](./README.md)** | **[فارسی](./README.fa.md)**
+**[English](./README.md)** • **[فارسی](./README.fa.md)**
 
 [🌐 Live Demo](https://c2p.us.ci) • [Features](#-features) • [Installation](#-installation) • [Usage](#-usage) • [Documentation](#-documentation)
 
@@ -42,14 +46,18 @@
 
 🌐 **[Try Live Demo](https://c2p.us.ci)**
 
-![App Demo](./assets/demo.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/screenshot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/screenshot-light.svg">
+  <img src="./assets/screenshot-light.svg" alt="App Demo" width="800" />
+</picture>
 
 
 ### 🖼️ Screenshots
 
 | Light Mode | Dark Mode |
 |:----------:|:---------:|
-| ![Light](./assets/screenshot-light.png) | ![Dark](./assets/screenshot-dark.png) |
+| <img src="./assets/screenshot-light.svg" alt="Light Mode" width="400"/> | <img src="./assets/screenshot-dark.svg" alt="Dark Mode" width="400"/> |
 
 </div>
 

@@ -2,7 +2,11 @@
 
 # ⚡ Code2Project - نسخه سایبری
 
-<img src="./assets/banner.png" alt="Code2Project Banner" width="100%" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/banner.svg">
+  <img src="./assets/banner.svg" alt="Code2Project Banner" width="100%" />
+</picture>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-cyan.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
@@ -12,7 +16,7 @@
 
 ### 🚀 تبدیل فایل‌های تکی به پروژه‌های کامل React - در یک لحظه!
 
-**[English](./README.md)** | **[فارسی](./README.fa.md)**
+**[English](./README.md)** • **[فارسی](./README.fa.md)**
 
 [🌐 دمو زنده](https://c2p.us.ci) • [ویژگی‌ها](#-ویژگی‌ها) • [نصب](#-نصب) • [استفاده](#-استفاده) • [مستندات](#-مستندات)
 
@@ -42,13 +46,17 @@
 
 🌐 **[دمو زنده را امتحان کنید](https://c2p.us.ci)**
 
-![App Demo](./assets/demo.gif)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/screenshot-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="./assets/screenshot-light.svg">
+  <img src="./assets/screenshot-light.svg" alt="App Demo" width="800" />
+</picture>
 
 ### 🖼️ تصاویر
 
 | حالت روشن | حالت تاریک |
 |:----------:|:---------:|
-| ![Light](./assets/screenshot-light.png) | ![Dark](./assets/screenshot-dark.png) |
+| <img src="./assets/screenshot-light.svg" alt="حالت روشن" width="400"/> | <img src="./assets/screenshot-dark.svg" alt="حالت تاریک" width="400"/> |
 
 </div>
 
